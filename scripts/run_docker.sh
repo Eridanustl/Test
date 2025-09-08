@@ -33,7 +33,6 @@ else
             --rm \
             --interactive \
             --tty \
-            --publish 16006:6006 \
             --workdir $(pwd) \
             --hostname $(hostname) \
             --gpus all \
