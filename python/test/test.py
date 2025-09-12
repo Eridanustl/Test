@@ -1,8 +1,12 @@
 import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
+import os
 
-# a = np.array([1, 3, 5, 8, 3, 1])
-a = [1, 3, 5, 8, 3, 1]
-b = np.argmax(a)
-print(b)
+
+while True:
+    degree = input("input degree:")
+    os.system("clear")
+    rad = round(float(degree) / 180 * np.pi, 3)
+
+    print(f"rad: {rad}")
